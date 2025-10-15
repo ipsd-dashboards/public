@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Дашборд 2.1</title>
-        <link rel="preload" as="style" href="/public/assets/info-6d6ddbd1a0bdd22c.css" crossorigin><link rel="preload" as="style" href="/public/assets/build_info-ddf59d54e1f72ec3.css" crossorigin><link rel="preload" as="style" href="/public/assets/filter-3701c71680fc612f.css" crossorigin><link rel="preload" as="style" href="/public/assets/dashboard-barchart-4624c98366a1ba2c.css" crossorigin><link rel="preload" as="style" href="/public/assets/header-16fd6b77b5ddbf4e.css" crossorigin><link rel="preload" as="style" href="/public/assets/spselector-064b139261e7d4ff.css" crossorigin><link rel="preload" as="script" href="/public/assets/vis-4-1-cfdbb364b788764e.js" crossorigin><link rel="preload" as="style" href="/public/assets/clear_filters-bde0ba974d5c4873.css" crossorigin><link rel="preload" as="style" href="/public/assets/update_time-cec3b43a897e9059.css" crossorigin><link rel="preload" as="style" href="/public/assets/main-06239c2c57e43f8a.css" crossorigin><link rel="preload" as="style" href="/public/assets/pie-52cf142937aa38fa.css" crossorigin><link rel="preload" as="style" href="/public/assets/tooltip-a4dd668b4f3bd43d.css" crossorigin><link rel="preload" as="fetch" type="application/wasm" href="/public/assets/vis-4-1_bg-0e74284817b8d58e.wasm" crossorigin>
+        <title>Дашборд 4.1</title>
+        <link rel="preload" as="style" href="/public/assets/dashboard-barchart-4624c98366a1ba2c.css" crossorigin><link rel="preload" as="style" href="/public/assets/main-06239c2c57e43f8a.css" crossorigin><link rel="preload" as="style" href="/public/assets/info-6d6ddbd1a0bdd22c.css" crossorigin><link rel="preload" as="style" href="/public/assets/tooltip-a4dd668b4f3bd43d.css" crossorigin><link rel="preload" as="script" href="/public/assets/tables1-table4-c177e4f4dcc551ab.js" crossorigin><link rel="preload" as="style" href="/public/assets/filter-3701c71680fc612f.css" crossorigin><link rel="preload" as="style" href="/public/assets/header-16fd6b77b5ddbf4e.css" crossorigin><link rel="preload" as="style" href="/public/assets/clear_filters-bde0ba974d5c4873.css" crossorigin><link rel="preload" as="style" href="/public/assets/spselector-064b139261e7d4ff.css" crossorigin><link rel="preload" as="style" href="/public/assets/update_time-cec3b43a897e9059.css" crossorigin><link rel="preload" as="style" href="/public/assets/build_info-ddf59d54e1f72ec3.css" crossorigin><link rel="preload" as="fetch" type="application/wasm" href="/public/assets/tables1-table4_bg-ca81688fd7edc078.wasm" crossorigin>
     </head>
     <body style="overflow:hidden">
         <div id="main"></div>
@@ -166,9 +166,9 @@
         </div>
     <script>
             // We can't use a module script here because we need to start the script immediately when streaming
-            import("/public/assets/vis-4-1-cfdbb364b788764e.js").then(
+            import("/public/assets/tables1-table4-c177e4f4dcc551ab.js").then(
                 ({ default: init }) => {
-                init("/public/assets/vis-4-1_bg-0e74284817b8d58e.wasm").then((wasm) => {
+                init("/public/assets/tables1-table4_bg-ca81688fd7edc078.wasm").then((wasm) => {
                     if (wasm.__wbindgen_start == undefined) {
                     wasm.main();
                     }
